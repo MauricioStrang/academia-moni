@@ -15,7 +15,7 @@ export default function Header() {
         </div>
 
         <div className={styles.logoContainer}>
-            <h1 className={styles.logo}> ACADEMIA MONI </h1>
+            <h1 className={styles.logo}> ACADEMIA MONICA </h1>
         </div>
 
 
