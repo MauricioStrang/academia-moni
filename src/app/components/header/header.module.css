@@ -4,37 +4,16 @@
     height: 70px;
     padding-left: 10px;
     padding-top: 10px;
-    background-color: lightblue;
 }
 
-.brgMenuContainer{
-    display: flex;
-}
 
-.brgMenu{
+.navLinks{
     display: flex;
-    
-}
-
-.logoContainer{
-    display: flex;
-    font-size: 9px;
-    justify-content: center;
-    align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.searchContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    border-color: gray;
+    align-items: self-end;
 }
 
 .userContainer{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
