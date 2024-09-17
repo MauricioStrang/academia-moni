@@ -1,19 +1,33 @@
 .container{
-    align-items: center;
-    display: flex;
-    height: 70px;
-    padding-left: 10px;
-    padding-top: 10px;
+    height: 120px;
+    width: 100vw;
 }
 
+.main{
+    display: block;
+}
+
+.banner{
+    background-color: #18919e;
+    height: 40px;
+}
 
 .navLinks{
+    margin-top: 7px;
+    margin-left:300px ;
     display: flex;
-    align-items: flex-end
+    gap: 30px;
+    align-items: center;
+    justify-content: end;
+    width: 900px;
 }
 
-.userContainer{
-    display: flex;
-    justify-content: flex-end;
+.userLink{
     align-items: center;
+    display: flex;   
+}
+
+.userBtn{
+    align-items: center;
+    margin-bottom: 5px;
 }
