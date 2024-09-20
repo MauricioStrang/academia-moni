@@ -2,11 +2,25 @@
 .container{
     height: 120px;
     width: 100vw;
+    background-color: white;
 }
 
 .main{
     display: block;
 }
+
+
+/* banner and the scrolling text application */
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+
 
 .banner{
     display: flex;
@@ -16,10 +30,22 @@
     align-items: center;
 }
 
+.bannerTextContainer{
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .bannerText{
+    width: 1300px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     font-size: 15px;
+    
+    padding-left: 50%;
+    display: inline-block;
+    animation: scroll-left 20s linear infinite;
 }
 
 .navLinks{
@@ -33,7 +59,7 @@
     display: flex;
     gap: 30px;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     width: 1000px;
 }
 
