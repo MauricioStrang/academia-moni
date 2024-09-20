@@ -9,7 +9,20 @@ export default function Home() {
         </div>
 
         <div className={styles.mainContent}>
-          <h1>fuck you</h1>
+          
+          <div className={styles.newsContainer}>
+            <div className={styles.newsTitle}><h1>Campus News</h1></div>
+            <div className={styles.newsContent}>
+              <ul>
+                <li>Inicio de clases</li>
+                <li>inscripciones</li>
+                <li>mesas de examenes</li>
+                <li>penis</li>
+              </ul> 
+            </div>
+          </div>
+            
+
         </div>
     </div>
   );
