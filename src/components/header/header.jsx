@@ -54,7 +54,7 @@ export default function Header() {
 
                     <div className={styles.noticeLink}>
                         <Link
-                            href={'/notice'}
+                            href={'/news'}
                         >
                             Noticias</Link>
                     </div>
@@ -74,7 +74,7 @@ export default function Header() {
                             width={30} height={30} 
                         />  
                         <Link
-                            href={'/user'}
+                            href={'/login'}
                         >
                             Ingresar</Link>
                     </div>
