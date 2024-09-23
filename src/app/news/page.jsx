@@ -5,7 +5,7 @@ export const metadata = {
     description: "Página de Noticias",
   };
 
-
+//idk
 const NewsPage = ()=>{
 
     return(
