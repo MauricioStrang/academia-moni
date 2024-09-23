@@ -5,12 +5,12 @@ export const metadata = {
     description: "Página de Noticias",
   };
 
-//idk
+//idk 2
 const NewsPage = ()=>{
 
     return(
         <div className={styles.container}>
-            <h1>News Page</h1>
+            <h1>News Pages</h1>
         </div>
     )
 }
