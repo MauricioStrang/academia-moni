@@ -24,3 +24,11 @@ a{
     text-decoration: none;
     color:inherit;
 }
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* To ensure the header stays above other content */
+}

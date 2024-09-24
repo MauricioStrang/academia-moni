@@ -1,5 +1,6 @@
 import "./globals.css";
 import Header from "../components/header/header";
+import Banner from "@/components/banner/banner";
 
 export const metadata = {
   title: "Academia Moni",
@@ -11,7 +12,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <div className="container">
-          <Header/>
+
+          <Banner />
+          <div className="header">
+              <Header />
+            </div>
           {children}
         </div>
       </body>

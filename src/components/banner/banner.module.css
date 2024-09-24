@@ -1,0 +1,45 @@
+
+.container{
+    height: 120px;
+    width: 100vw;
+    background-color: white;
+}
+
+
+/* banner and the scrolling text application */
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+
+
+.banner{
+    display: flex;
+    background-color: #18919e;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerTextContainer{
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.bannerText{
+    width: 1300px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 15px;
+    
+    padding-left: 50%;
+    display: inline-block;
+    animation: scroll-left 20s linear infinite;
+}

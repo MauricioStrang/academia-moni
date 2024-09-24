@@ -11,6 +11,15 @@ export default function Header() {
     <div className={styles.container}>
 
         <div className={styles.main}>  
+            
+            {/* This would be a moving text inside the banner */}
+            <div className={styles.banner}>
+
+                <div className={styles.bannerTextContainer}>
+                    <h1 className={styles.bannerText}>Academia Moni: Enseñanza superior en ciencias médicas</h1>
+                </div>
+                
+            </div>
 
             <div className={styles.navLinks}>
 
